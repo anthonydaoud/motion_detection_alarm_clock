@@ -5,4 +5,4 @@ The program utilizes a raspberry pi and the OpenCV library to perform the motion
 
 As for the mechanics of the system, motion is detected by comparing the previous frame with the current one, and if there are enough differences between the two, then a motion counter is incremented. If the motion counter passes a threshhold (should be modified based on user preference), then it is assumed that the user has left their bed and the program ends. 
 
-In making this program, numerous tutorials were 
+In making this program, numerous tutorials were consulted, with the most useful of the bunch coming from pyimagesearch.com. There is a fantastic two part series on basic home surveillance and motion detection using a raspberry pi and opencv. The code in the program draws from these tutorials, but has been modified for use as an alarm clock rather than home surveillance.
